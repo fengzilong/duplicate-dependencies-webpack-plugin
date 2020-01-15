@@ -1,0 +1,22 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "element-ui": "^2.13.0",
+    "vue": "^2.6.11"
+  }
+}

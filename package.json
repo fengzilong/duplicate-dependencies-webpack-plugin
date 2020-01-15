@@ -1,0 +1,28 @@
+{
+  "name": "duplicate-dependencies-webpack-plugin",
+  "version": "0.1.0",
+  "description": "webpack plugin to find duplicated dependencies from your bundle",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npm run build --prefix ./examples/simple",
+    "test": "echo 🦄"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengzilong/duplicate-dependencies-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "fengzilong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengzilong/duplicate-dependencies-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/fengzilong/duplicate-dependencies-webpack-plugin#readme",
+  "dependencies": {
+    "is-path-inside": "^3.0.2",
+    "tapable": "^1.1.3"
+  }
+}
