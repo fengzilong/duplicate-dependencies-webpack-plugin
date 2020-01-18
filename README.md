@@ -33,6 +33,7 @@ Internally this plugin expose a hook called `result`
 ```js
 const DuplicatePlugin = require( 'duplicate-dependencies-webpack-plugin' )
 
+const ID = 'duplicates-reporter'
 class DuplicatesReporterPlugin {
   apply( compiler ) {
     compiler.hooks.compilation.tap( ID, compilation => {
@@ -51,6 +52,24 @@ module.exports = {
     new DuplicatePlugin(),
     new DuplicatesReporterPlugin()
   }
+}
+```
+
+duplicates looks like:
+
+```js
+{
+  'package_name': [
+    {
+      name: 'package_name',
+      version: '4.2.2',
+      root: 'absolute_path_to_package_root',
+      issuer: 'absolute_path_to_issuer', // the file issue the request
+      files: [Array], // files in the packages which are included in your bundle
+      bytes: 4000 // bytes contributed by this packages
+    },
+    // ...more versions
+  ]
 }
 ```
 
