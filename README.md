@@ -65,7 +65,7 @@ duplicates looks like:
       version: '4.2.2',
       root: 'absolute_path_to_package_root',
       issuer: 'absolute_path_to_issuer', // the file issue the request
-      files: [Array], // files in the packages which are included in your bundle
+      files: [Array], // files in this package which are included in your bundle
       bytes: 4000 // bytes contributed by this packages
     },
     // ...more versions
