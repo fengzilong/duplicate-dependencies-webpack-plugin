@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic snapshot 1`] = `
+Object {
+  "deepmerge": Array [
+    Object {
+      "bytes": 4035,
+      "files": Array [
+        "node_modules/deepmerge/dist/cjs.js",
+      ],
+      "issuer": "test/fixtures/entry.js",
+      "name": "deepmerge",
+      "root": "node_modules/deepmerge",
+      "version": "4.2.2",
+    },
+    Object {
+      "bytes": 3309,
+      "files": Array [
+        "node_modules/element-ui/node_modules/deepmerge/dist/cjs.js",
+      ],
+      "issuer": "node_modules/element-ui/lib/locale/index.js",
+      "name": "deepmerge",
+      "root": "node_modules/element-ui/node_modules/deepmerge",
+      "version": "1.5.2",
+    },
+  ],
+}
+`;
