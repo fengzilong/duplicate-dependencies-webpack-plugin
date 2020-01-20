@@ -4,7 +4,9 @@
 ![npm downloads](https://img.shields.io/npm/dm/duplicate-dependencies-webpack-plugin)
 ![actions status](https://github.com/fengzilong/duplicate-dependencies-webpack-plugin/workflows/Node%20CI/badge.svg)
 
-A webpack plugin for finding all duplicated dependencies in your bundle
+A webpack plugin to find all duplicated dependencies in your bundle
+
+<img src="media/snapshot.jpg" alt="snapshot" width="500px">
 
 ## Installation
 
@@ -20,11 +22,25 @@ For npm users
 npm i duplicate-dependencies-webpack-plugin -D
 ```
 
-## Usage
+## Basic Usage
+
+`webpack.config.js`
+
+```js
+const { DuplicateReporterPlugin } = require( 'duplicate-dependencies-webpack-plugin' )
+
+module.exports = {
+  plugins: {
+    new DuplicateReporterPlugin()
+  }
+}
+```
+
+## Advanced Usage
 
 This plugin is designed to be more flexible
 
-So you need to use it together with a reporter plugin
+So you may want to use it together with a reporter plugin
 
 Internally this plugin expose a hook called `result`
 
