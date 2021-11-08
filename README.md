@@ -6,7 +6,7 @@
 
 A webpack plugin to find all duplicated dependencies in your bundle
 
-<img src="media/snapshot.jpg" alt="snapshot" width="500px">
+<img src="media/screenshot.jpg" alt="screenshot" width="500px">
 
 ## Installation
 
