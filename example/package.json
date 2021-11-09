@@ -1,7 +1,7 @@
 {
   "name": "example",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "build": "webpack"
@@ -9,10 +9,10 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
     "deepmerge": "4.2.2",
     "element-ui": "2.13.0",
-    "vue": "2.6.11"
+    "vue": "2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }
