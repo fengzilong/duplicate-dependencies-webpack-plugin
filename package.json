@@ -1,6 +1,6 @@
 {
   "name": "duplicate-dependencies-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack plugin to find duplicated dependencies from your bundle",
   "main": "lib/index.js",
   "scripts": {
