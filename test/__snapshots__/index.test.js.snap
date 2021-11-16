@@ -10,7 +10,7 @@ Object {
       ],
       "issuer": "test/fixtures/entry.js",
       "issuerPath": Array [
-        "/Users/mo/Projects/duplicate-dependencies-webpack-plugin/test/fixtures/entry.js",
+        "test/fixtures/entry.js",
       ],
       "name": "deepmerge",
       "root": "node_modules/deepmerge",
@@ -23,9 +23,9 @@ Object {
       ],
       "issuer": "node_modules/element-ui/lib/locale/index.js",
       "issuerPath": Array [
-        "/Users/mo/Projects/duplicate-dependencies-webpack-plugin/node_modules/element-ui/lib/locale/index.js",
-        "/Users/mo/Projects/duplicate-dependencies-webpack-plugin/node_modules/element-ui/lib/element-ui.common.js",
-        "/Users/mo/Projects/duplicate-dependencies-webpack-plugin/test/fixtures/entry.js",
+        "node_modules/element-ui/lib/locale/index.js",
+        "node_modules/element-ui/lib/element-ui.common.js",
+        "test/fixtures/entry.js",
       ],
       "name": "deepmerge",
       "root": "node_modules/element-ui/node_modules/deepmerge",
